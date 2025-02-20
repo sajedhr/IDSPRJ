@@ -1,4 +1,6 @@
-public class Post
+namespace IDS.Models
+{
+    public class Post
 {
     public int Id { get; set; }
     public string Title { get; set; }
@@ -16,6 +18,4 @@ public class Post
     public ICollection<PostCategory> PostCategories { get; set; } 
 }
 
-public class PostCategory
-{
 }

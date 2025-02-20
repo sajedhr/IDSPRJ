@@ -1,4 +1,6 @@
-public class PostCategory
+namespace IDS.Models
+{ 
+  public class PostCategory
 {
     public int Id { get; set; } // This can be removed if using a composite key
 
@@ -8,4 +10,6 @@ public class PostCategory
 
     public int CategoryId { get; set; }
     public Category Category { get; set; }
+}
+  
 }

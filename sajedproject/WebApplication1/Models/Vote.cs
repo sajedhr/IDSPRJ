@@ -1,4 +1,6 @@
-public class Vote
+namespace IDS.Models
+{
+    public class Vote
 {
     public int Id { get; set; }
     public string Type { get; set; } // "Up" or "Down"
@@ -8,4 +10,6 @@ public class Vote
 
     public int UserId { get; set; }
     public User User { get; set; }
+}
+
 }
