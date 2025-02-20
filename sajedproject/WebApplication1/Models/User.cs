@@ -1,4 +1,8 @@
-public class User
+using IDS.Models;
+
+namespace IDS.Models
+{
+    public class User
 {
     public int Id { get; set; }
     public string Username { get; set; }
@@ -11,4 +15,6 @@ public class User
     public ICollection<Comment> Comments { get; set; }
     public ICollection<Vote> Votes { get; set; }
     public ICollection<Notification> Notifications { get; set; }
+}
+
 }

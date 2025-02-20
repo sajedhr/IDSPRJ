@@ -1,4 +1,6 @@
-public class Notification
+namespace IDS.Models
+{
+    public class Notification
 {
     public int Id { get; set; }
     public string Message { get; set; }
@@ -6,4 +8,6 @@ public class Notification
 
     public int UserId { get; set; }
     public User User { get; set; }
+}
+
 }
